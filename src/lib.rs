@@ -38,10 +38,6 @@ mod tests {
         let root: minidom::Element = DATA.parse().unwrap();
         // to see print stmts use the following command
         // cargo test -- --nocapture
-        println!("{:#?}", root);
-
-        println!("{:#?}", root.name());
-
-        // println!("{}", root.children()[1].name());
+        // println!("{:#?}", root);
 	}
 }
